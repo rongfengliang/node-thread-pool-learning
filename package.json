@@ -1,0 +1,19 @@
+{
+  "name": "node-thread-pool",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "license": "MIT",
+  "dependencies": {
+    "poolifier": "^1.0.0"
+  },
+  "scripts": {
+    "start": "node src/index.js",
+    "test:standard": "standard",
+    "test:standard-fix": "standard --fix",
+    "flame":"0x src/index.js"
+  },
+  "devDependencies": {
+    "0x": "^4.9.1",
+    "standard": "^14.3.1"
+  }
+}
